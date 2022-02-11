@@ -6,8 +6,8 @@
         "serve": "vue-cli-service serve --mode dev",
         "build-dev": "vue-cli-service build --mode dev",
         "build-prd": "vue-cli-service build --mode prd",
-        "electron:build": "vue-cli-service electron:build",
         "electron:serve": "vue-cli-service electron:serve",
+        "electron:build": "vue-cli-service electron:build",
         "postinstall": "electron-builder install-app-deps",
         "postuninstall": "electron-builder install-app-deps"
     },
